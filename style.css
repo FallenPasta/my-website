@@ -1,0 +1,87 @@
+html{
+    background-image: url(image/kurumi\ phone.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width:1920px;
+
+}
+    
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color:rgb(236, 236, 241);
+
+    margin: 0;
+    padding: 0;
+}
+/*HEADER */
+header{
+
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(252, 252, 252);
+    margin: 100px;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    text-decoration: none;
+}
+h1 {
+    font-size: 50px;
+    padding: 300px;
+    color:red
+
+}
+
+ul{
+    margin:0;
+    padding: 0;
+    list-style-type:none;
+    color: white;
+}
+li{
+    display:inline-block;
+    margin:20px 100px 0px -60px;
+    font-size: 35px;
+    color: white;
+}
+header .page a{
+    color: white;
+    text-decoration: none;
+    margin: 100px 0px 100px 0px;
+    padding:30px 50px;
+
+}
+header .page.facebook a{
+    background-image: url(image/facebook.webp);
+    background-size:100%;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+
+}
+header .page.twitch a{
+    background-image: url(image/twitch.png);
+    background-size:100%;
+    background-repeat: no-repeat;
+}
+header .page.youtube a{
+    background-image: url(image/youtube.png);
+    background-size:100%;
+    background-repeat: no-repeat;
+;
+    padding:23px 50px
+}
+header .page.twitter a{
+    background-image: url(image/twitter.png);
+    background-size:100%; 
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+@media screen and (min-width:1440px) {
+    html{  
+        width: 1920px;
+        height:200px;
+        background-image: url(image/wp1829975.webp);
+        background-repeat: no-repeat;
+        background-size: 100%;
+}
+}
